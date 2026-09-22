@@ -5,7 +5,9 @@ import AppLayout from '../components/AppLayout'
 import StatCard from '../components/StatCard'
 import ProgressBar from '../components/ProgressBar'
 import Button from '../components/Button'
+import InterviewTips from '../components/InterviewTips'
 import { STATS, RECENT_INTERVIEWS, FOCUS_AREAS } from '../data/dashboardData'
+
 
 export default function Dashboard() {
   return (
@@ -43,6 +45,8 @@ export default function Dashboard() {
           </Button>
         </div>
       </motion.div>
+
+      <InterviewTips />
 
       <div className="mb-8">
         <h2 className="mb-4 font-heading text-sm font-semibold tracking-wider text-white uppercase">
